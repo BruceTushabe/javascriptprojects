@@ -1,2 +1,3 @@
 # Python small projects for fun
-A repo for python projects
+
+This is based on everyday life automation using the python language
