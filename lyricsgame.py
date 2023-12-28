@@ -1,6 +1,6 @@
 import pyfiglet
 font = pyfiglet.figlet_format("LYRICS GAME")
-#print(font)
+print(font)
 
 exit = "no"
 
