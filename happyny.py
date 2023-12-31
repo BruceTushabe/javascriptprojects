@@ -2,7 +2,7 @@ import pyfiglet
 from termcolor import cprint
 from colorama import Fore
 font= pyfiglet.figlet_format("Happy New Year 2024")
-cprint(font, 'red')
+cprint(font, 'green')
 
 
 def heart_shape(msg=" Happy New Year 2024"):
@@ -14,5 +14,5 @@ def heart_shape(msg=" Happy New Year 2024"):
             f = ((x * 0.05) ** 2 + (y * 0.1) **2 - 1) ** 3 - (x * 0.05) ** 2 * (y * 0.1) **3
             line += msg[(x - y) % len(msg)] if f <= 0 else " "
         lines.append(line)
-    print(Fore.RED+ "\n".join(lines))
+    print(Fore.GREEN+ "\n".join(lines))
 heart_shape()
