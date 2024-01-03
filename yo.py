@@ -1,5 +1,4 @@
-import random
-
-mynumber = random.randint(1, 10)
-
-print(mynumber)
+n = int(input())
+for i in range(n):
+    if i < n:
+        print(i**2)
