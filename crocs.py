@@ -13,7 +13,7 @@ def strength():
   return strengthStat
 
 while True:
-  print("⚔️ CHARACTER BUILDER ⚔️")
+  print(" CHARACTER BUILDER ")
   print()
   name = input("Name your Legend:\n")
   type = input("Character Type (Human, Elf, Wizard, Orc):\n")
