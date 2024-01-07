@@ -1,7 +1,5 @@
 import random, os, time
 
-import random, os, time
-
 def rollDice(side):
   result = random.randint(1,side)
   return result
@@ -15,7 +13,7 @@ def strength():
   return strengthStat
 
 
-print("⚔️ BATTLE TIME ⚔️")
+print(" BATTLE TIME ")
 print()
 c1Name = input("Name your Legend:\n")
 c1Type = input("Character Type (Human, Elf, Wizard, Orc):\n")
@@ -45,7 +43,7 @@ winner = None
 while True:
   time.sleep(1)
   os.system("clear")
-  print("⚔️ BATTLE TIME ⚔️")
+  print("BATTLE TIME ")
   print()
   print("The battle begins!")
 
@@ -92,6 +90,6 @@ while True:
 
 time.sleep(1)
 os.system("clear")
-print("⚔️ BATTLE TIME ⚔️")
+print(" BATTLE TIME ")
 print()
 print(winner, "has won in", round, "rounds")
