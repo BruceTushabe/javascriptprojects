@@ -1,15 +1,15 @@
-def mergeSort(arr):
+def mergSot(arr):
     if len(arr) > 1:
-        mid = len(arr)//2
-        partArray1 = arr[:mid]
-        partArray2 = arr[mid:]
 
-        mergeSort(partArray1)
-        mergeSort(partArray2)
+       mid = len(arr)//2
+       patArray1 = arr[:mid]
+       patArray2 = arr[mid:]
 
-        i = j = k = 0
+       mergSot(patArray1)
+       mergSot(patArray2)
 
-        while i < len(partArray1) and j < len(partArray2):
-            if partArray1[i] < partArray2[j]:
-                
+
+       # 
+
+
 
