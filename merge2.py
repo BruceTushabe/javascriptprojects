@@ -31,6 +31,12 @@ def mergSot(arr):
         arr[k] = patArray2[j]
         j += 1
         k += 1
+
+# using
+        
+arr = [10, 9, 2, 4, 6, 13]
+mergSot(arr)
+print(arr)
            
 
 
