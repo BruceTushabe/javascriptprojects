@@ -25,6 +25,8 @@ def mergeSort (arr):
             i += 1
             k += 1
 
+        
+
         while j < len(sub_array2):
             arr[k] = sub_array2[j]
             j += 1
