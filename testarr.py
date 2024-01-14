@@ -1,7 +1,14 @@
-import os, time
+import time
+
+print ("30 DAYS DOWN")
+
 
 
 for i in range(1, 20):
-    print (i) 
+    print (f"Day {i} ") 
+    thought = input()
     time.sleep(1)
-    os.system("clear")
+   
+
+    print(f"You thought Day {i} was", thought)
+
