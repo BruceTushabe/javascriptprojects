@@ -38,6 +38,8 @@ while True:
         print("That is not a valid choice!")
         print("Please choose 1, or 2, or 3")
 
+    printList()
+
 
 print("Exiting guest list management system.")
 
