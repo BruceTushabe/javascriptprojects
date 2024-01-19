@@ -1,1 +1,2 @@
-# day34
+print("Hello", sep='')
+print("World")
