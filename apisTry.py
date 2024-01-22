@@ -7,10 +7,9 @@ txt = response.text
 stc = response.status_code
 j = response.json()
 
-
-print(stc)
-print(txt)
+photos = response.json()["photos"]
 print(j)
+print(photos)
 
 
 
