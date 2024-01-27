@@ -1,8 +1,17 @@
 import requests
 
+import json
 
-response = requests.get("https://api.open-notify.org/astros.json")
+
+response = requests.get("http://api.open-notify.org/astros.json")
+
+print(response.json())
+
 print(response.status_code)
 
 
+def jprint(obj):
+    text = json.dumps(obj, sort_keys= True, indent = 4)
+    print(text)
 
+jprint(response.json())
